@@ -1,0 +1,21 @@
+{
+  "name": "port-discon",
+  "version": "1.0.1111",
+  "license": "MIT",
+  "description": "Demonstrate port disconnection by closing options page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skieffer/port-discon.git"
+  },
+  "private": true,
+  "scripts": {
+    "build:moz": "webpack; date",
+    "build:chr": "webpack --env chr; date"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

@@ -1,0 +1,9 @@
+*~
+~$*
+*.swp
+*.swo
+*.DS_Store
+.idea
+dist-chrome
+dist-mozilla
+node_modules
